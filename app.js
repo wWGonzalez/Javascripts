@@ -1,25 +1,13 @@
-//tipos de datos
-"Hola" //string
-'Hola' //string
+var nameUser = "jhon"
+let lastname = "carter"
+const PI = 3.1416
 
-//number
-10.3
--2.4
+PI = 2
 
-//boolean
-true
-false
+nameUser = "wer"
 
-//array
-['Armando','paredes']
-[1,2,4]
-[true,false,true,false]
+console.log(nameUser)
+console.log(PI)
 
-// objetc
-true
-{
- "username": "wer",
- "score" : 95.9,
- "hours": 8,
- "proffesional": true
-}
+//Camelcase
+let userName = "wer" //primera palabra minuscula siguientes letras mayuscula
