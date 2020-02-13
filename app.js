@@ -1,13 +1,14 @@
-var nameUser = "jhon"
-let lastname = "carter"
-const PI = 3.1416
+let nota = 86
 
-PI = 2
-
-nameUser = "wer"
-
-console.log(nameUser)
-console.log(PI)
-
-//Camelcase
-let userName = "wer" //primera palabra minuscula siguientes letras mayuscula
+if (nota < 60){
+ console.log("Reprobado")
+}
+else if(nota < 70){
+ console.log("Aprobado nota Baja")
+}
+else if(nota < 86){
+ console.log("Aprobado nota Regular")
+}
+else{
+ console.log("Aprobado Nota Excelente")
+}
