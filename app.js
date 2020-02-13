@@ -1,14 +1,12 @@
-let nota = 86
+typeCard = "None"
 
-if (nota < 60){
- console.log("Reprobado")
-}
-else if(nota < 70){
- console.log("Aprobado nota Baja")
-}
-else if(nota < 86){
- console.log("Aprobado nota Regular")
-}
-else{
- console.log("Aprobado Nota Excelente")
+switch(typeCard){
+ case "Debit Card":
+ console.log("This is a debit card")
+ break;
+ case "Credit Card":
+ console.log("this is a credit card")
+ break;
+ default:
+ console.log("Tarjeta Invalida")
 }
